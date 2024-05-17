@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "blowfish-main"
+
+[menu]
+ [[menu.main]]
+  indentifier = "about"
+  name = "about"
+  url = "/about"
+  weight = 10
+
+ [[menu.main]]
+  indentifier = "about"
+  name = "sign in"
+  url = "/about"
+  weight = 20
+
+ [[menu.main]]
+  indentifier = "about"
+  name = "sign up"
+  url = "/about"
+  weight = 20
